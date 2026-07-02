@@ -1,0 +1,25 @@
+{
+	"alert": {
+		"event": "violation",
+		"webHookUrl": "https://discord.com/api/webhooks/614088297882451979/BYHUgWLU5Jj_XQnyRNDAI4oTZeFPAnHEA76BaO3neIE26NYh23lO5fVI78m1BgecVXT0"
+	},
+	"watchList": [
+		{
+			"url": "https://github.com/penguinhing/test_repo",
+			"guidePathList": [
+				"/adminconsole",
+				"/java"
+			],
+			"ignoreFileList": [
+				"*.txt",
+				"*.md",
+				"*.js",
+				"application.properties.init"
+			],
+			"branchList": [
+				"main",
+				"pp_test"
+			]
+		}
+	]
+}
